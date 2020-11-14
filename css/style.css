@@ -2,3 +2,46 @@
         ====== Theme Name  : شريان
         ====== Version     : 1.0
 */
+/*************home********************/
+.home{
+        background-image: url("../img/transforming-care_banner.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        
+}
+
+
+
+/* search bank results */
+.sizeIcon{
+        font-size: 20px;
+}
+/*********************search***************************/
+.show{
+     border: 1px solid #dfdada;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px; 
+     background-color: #b20b1f;
+     color: white;   
+}
+.country{
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px; 
+}
+select{
+        border: 1px solid #dfdada;
+}
+select:focus{
+        border: none;
+}
+/********************results*********************************/
+.loc{
+        background-color:#fad5d8;
+        border: 2px solid #b20b1f;
+        border-radius: 10px;
+}
+.loc span{
+        font-size: 13px;
+        font-weight: bold;
+}
